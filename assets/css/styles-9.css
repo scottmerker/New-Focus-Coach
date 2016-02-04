@@ -1503,6 +1503,7 @@ img.small-logo {max-height:1.6em;}
     .stickyBottom {display:none;}
     #home .home-phone {font-size:13px; margin-top:20px;}
     #home .ph {display:block; margin-top:10px;}
+    #home p.secondary-intro {font-size: 13px; margin: 0 30px; line-height: normal}
 }
 
  .stickyBottom {margin:0; position:fixed; bottom:40px; text-align:center; width:100%; min-width:100%; color:#036870;}
