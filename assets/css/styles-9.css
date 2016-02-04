@@ -50,6 +50,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     text-align:center;
 }
 
+.modalDialog p {font-size:16px;}
+
 /*-----------------------
 ----- Layout Styles -----
 -------------------------*/
@@ -81,6 +83,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .bg-color4{
     color:#fff;
     background:#069aa6;
+}
+
+.bg-color5 {
+    color:#fff;
+    background: #ee781e;
 }
     
 .border-bottom-color2{
@@ -236,7 +243,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
         position:relative; 
         left: 75px; 
         top: -25px; 
-        font-style:italic; 
+
         text-transform:none;
     }
 
@@ -335,19 +342,19 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #home p{
     margin: 0;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 #home h1{
     margin:0;
-    font-size: 82px;
+    font-size: 60px;
     font-weight: 600;
     text-transform: normal;
 }
 
 #home h1 + p{
-    font-size: 28px;
+    font-size: 18px;
 }
 
 
@@ -435,11 +442,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     max-width: 250px;
 }
 
+a.no-under {text-decoration: none !important;}
+
 /*-----------------------
 --- About Styles ----
 -------------------------*/
 
-#about {text-align:center;}
+#about {text-align:left;}
 
 
 
@@ -451,7 +460,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transform: rotate(-5deg);
 }
 
-img.small-logo {max-height:1.6em;}
+img.small-logo {max-height:1.6em; margin-bottom:15px;}
+
+#about .col-md-6 {padding:20px;}
+
+#about h1 {text-align:left;}
 
 
 /*-----------------------
@@ -1384,7 +1397,6 @@ img.small-logo {max-height:1.6em;}
         position:relative; 
         left: 50px; 
         top: -25px; 
-        font-style:italic; 
         text-transform:none;
     }
     
@@ -1574,6 +1586,6 @@ img.small-logo {max-height:1.6em;}
 }
 .close:hover { background: #00d9ff; }
 
-.contactFormText {color:#c1c1c1;}
+.contactFormText {color:#a5a5a5;}
 
 #twitter img {display:none;}
