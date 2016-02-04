@@ -1497,6 +1497,12 @@ img.small-logo {max-height:1.6em;}
 
 } 
 
+@media (max-width:375px){
+        #home p.secondary-intro {font-size: 13px; margin: 0 30px; line-height: normal}
+
+    
+}
+
 
 @media (max-width:320px){
     #home p {font-size:13px;}
