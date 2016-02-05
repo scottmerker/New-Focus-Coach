@@ -342,7 +342,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #home p{
     margin: 0;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -365,6 +365,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .portrait-text {margin-top:20px;}
 
 .home-phone {margin-top:20px; font-size:1.3em;}
+
+
+
 /*-----------------------
 ---- Services Styles ----
 -------------------------*/
