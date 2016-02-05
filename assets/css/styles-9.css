@@ -342,7 +342,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #home p{
     margin: 0;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 400;
 }
 
@@ -357,6 +357,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-size: 18px;
 }
 
+#home .stickyBottom  > p{font-size:30px;}
 
 #home p.lead {font-size:36px;}
 
@@ -457,7 +458,7 @@ a.no-under {text-decoration: none !important;}
 
 .polaroid {
     border:12px solid #fff;
-    max-width: 85%;
+    max-width: 95%;
     box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
